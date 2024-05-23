@@ -6,7 +6,7 @@ public class DeMereProblem {
     public static void main(String[] args) {
         System.out.println("확통 드메레 문제 주사위 머신 v1.0 \n");
 
-        int tryDiceTimes = 1000000;  //Simulation thrown dice counts,주사위 던지는 갯수를 조절하고 싶으면 여기서 ㄱㄱ //멀티스레드 도입해보는것도 ㄱㅊ을듯?
+        int tryDiceTimes = 10000000;  //Simulation thrown dice counts,주사위 던지는 갯수를 조절하고 싶으면 여기서 ㄱㄱ //멀티스레드 도입해보는것도 ㄱㅊ을듯?
         String quickReadDiceTimes = null;
 
         double singleDiceProbability = simulateSingleDice(tryDiceTimes);
